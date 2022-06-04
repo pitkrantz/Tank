@@ -31,6 +31,10 @@ struct ContentView: View {
                 }
                 
                 Spacer()
+                
+                SettingsWheel()
+                
+                Spacer()
             }
             
             RightSlider(viewModel: viewModel)

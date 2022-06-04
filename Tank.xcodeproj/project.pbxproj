@@ -10,6 +10,7 @@
 		9435A82427A48EF100C98321 /* connButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9435A82327A48EF100C98321 /* connButton.swift */; };
 		9435A82727A4918400C98321 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9435A82627A4918400C98321 /* ButtonView.swift */; };
 		94367E0E284BFC2B003DCEB6 /* NewLightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */; };
+		94367E10284C0E08003DCEB6 /* SettingsWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */; };
 		946602E22808741A003E8928 /* HornButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946602E12808741A003E8928 /* HornButton.swift */; };
 		948C755E2794C26300C455B7 /* SliderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C755D2794C26300C455B7 /* SliderViews.swift */; };
 		94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */; };
@@ -53,6 +54,7 @@
 		9435A82327A48EF100C98321 /* connButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connButton.swift; sourceTree = "<group>"; };
 		9435A82627A4918400C98321 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLightButton.swift; sourceTree = "<group>"; };
+		94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWheel.swift; sourceTree = "<group>"; };
 		946602E12808741A003E8928 /* HornButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornButton.swift; sourceTree = "<group>"; };
 		948C755D2794C26300C455B7 /* SliderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViews.swift; sourceTree = "<group>"; };
 		94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-BlackItalic.otf"; path = "../../../../../../Library/Fonts/SF-Compact-Text-BlackItalic.otf"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				946602E12808741A003E8928 /* HornButton.swift */,
 				94E435E8281A86B900904DDC /* LightButton.swift */,
 				94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */,
+				94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				94C93DEC2817C67300077342 /* LoadingView.swift in Sources */,
 				94ED987B278AEBC4008B1DBE /* TankApp.swift in Sources */,
 				94B8661E2794B63900E544FC /* SliderTutorial.swift in Sources */,
+				94367E10284C0E08003DCEB6 /* SettingsWheel.swift in Sources */,
 				94D04F052816988C0018D5AE /* SoundTest.swift in Sources */,
 				9435A82727A4918400C98321 /* ButtonView.swift in Sources */,
 				94AC8D37279AE6DC004A927B /* TankViewModel.swift in Sources */,
