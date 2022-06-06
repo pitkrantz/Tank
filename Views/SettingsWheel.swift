@@ -13,16 +13,23 @@ struct SettingsWheel: View {
     
     var body: some View {
         Button(action:{
-            withAnimation(.spring(response: 0.3)) {
                 pressed.toggle()
-            }
         }, label: {
-            Image(systemName: "gearshape.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 40, height: 40, alignment: .center)
-                .foregroundColor(.black)
-                .rotationEffect(Angle(degrees: pressed ? 180 : 0))
+            ZStack{
+                Circle()
+                    .opacity(pressed ? 100 : 0)
+                    .frame(width: 40, height: 40, alignment: .center)
+                    .animation(.easeInOut, value: 1)
+                Image(systemName: "paintbrush")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 25, height: 25, alignment: .center)
+                    .foregroundColor(pressed ? .white : .black)
+                    .animation(.spring(response: 0.3), value: 1)
+                
+            }
+           
+                
         })
         .buttonStyle(toggleSwitch())
         

@@ -11,6 +11,8 @@
 		9435A82727A4918400C98321 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9435A82627A4918400C98321 /* ButtonView.swift */; };
 		94367E0E284BFC2B003DCEB6 /* NewLightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */; };
 		94367E10284C0E08003DCEB6 /* SettingsWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */; };
+		94367E12284C131D003DCEB6 /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E11284C131D003DCEB6 /* SettingsMenu.swift */; };
+		94367E17284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 94367E16284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png */; };
 		946602E22808741A003E8928 /* HornButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946602E12808741A003E8928 /* HornButton.swift */; };
 		948C755E2794C26300C455B7 /* SliderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C755D2794C26300C455B7 /* SliderViews.swift */; };
 		94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */; };
@@ -55,6 +57,8 @@
 		9435A82627A4918400C98321 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLightButton.swift; sourceTree = "<group>"; };
 		94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWheel.swift; sourceTree = "<group>"; };
+		94367E11284C131D003DCEB6 /* SettingsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu.swift; sourceTree = "<group>"; };
+		94367E16284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png"; path = "../../../../Desktop/Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png"; sourceTree = "<group>"; };
 		946602E12808741A003E8928 /* HornButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornButton.swift; sourceTree = "<group>"; };
 		948C755D2794C26300C455B7 /* SliderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViews.swift; sourceTree = "<group>"; };
 		94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-BlackItalic.otf"; path = "../../../../../../Library/Fonts/SF-Compact-Text-BlackItalic.otf"; sourceTree = "<group>"; };
@@ -115,6 +119,14 @@
 			path = "Custom Styles";
 			sourceTree = "<group>";
 		};
+		94367E15284CC2D0003DCEB6 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				94367E16284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
 		94B7DA3A27A0503700527299 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 				94E435E8281A86B900904DDC /* LightButton.swift */,
 				94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */,
 				94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */,
+				94367E11284C131D003DCEB6 /* SettingsMenu.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +164,7 @@
 		94ED986E278AEBC4008B1DBE = {
 			isa = PBXGroup;
 			children = (
+				94367E15284CC2D0003DCEB6 /* Themes */,
 				94D04F032816986A0018D5AE /* Sounds */,
 				94B7DA3B27A0507600527299 /* ViewModel */,
 				94B7DA3A27A0503700527299 /* Views */,
@@ -317,6 +331,7 @@
 				94ED9882278AEBC5008B1DBE /* Preview Assets.xcassets in Resources */,
 				94C93DEA2817129C00077342 /* disconnected.mp3 in Resources */,
 				94D5313828170F3000750278 /* connected.mp3 in Resources */,
+				94367E17284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png in Resources */,
 				94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */,
 				94B9AD0A281C39A9007DB37D /* light.mp3 in Resources */,
 				94ED987F278AEBC5008B1DBE /* Assets.xcassets in Resources */,
@@ -347,6 +362,7 @@
 				94E435E9281A86B900904DDC /* LightButton.swift in Sources */,
 				94ED987D278AEBC4008B1DBE /* ContentView.swift in Sources */,
 				94B9AD02281C2F39007DB37D /* ToggleLight.swift in Sources */,
+				94367E12284C131D003DCEB6 /* SettingsMenu.swift in Sources */,
 				94E4967727AD330E0020B16D /* modeButton.swift in Sources */,
 				9435A82427A48EF100C98321 /* connButton.swift in Sources */,
 				94367E0E284BFC2B003DCEB6 /* NewLightButton.swift in Sources */,
