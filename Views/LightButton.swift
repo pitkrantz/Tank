@@ -18,22 +18,22 @@ struct LightButton: View {
             
             else if viewModel.lightStatus {
                 viewModel.lightStatus = false
-                
+            
                 viewModel.lightInput(0)
                 viewModel.send()
-                //SoundManager.instance.playSound(sound: .light)
+                //SoundManager.instance.playSound(sound: .knightRider)
 
             }
             
             else{
                 viewModel.lightStatus = true
-                
-                viewModel.lightInput(10)
+            
+                viewModel.lightInput(20)
                 viewModel.send()
                 //SoundManager.instance.playSound(sound: .light)
 
             }
-            
+    
             
         }, label: {
             if viewModel.lightStatus {

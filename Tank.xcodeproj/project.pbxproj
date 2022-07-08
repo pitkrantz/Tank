@@ -12,14 +12,18 @@
 		94367E0E284BFC2B003DCEB6 /* NewLightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */; };
 		94367E10284C0E08003DCEB6 /* SettingsWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */; };
 		94367E12284C131D003DCEB6 /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E11284C131D003DCEB6 /* SettingsMenu.swift */; };
-		94367E17284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 94367E16284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png */; };
+		944F623B286ED339000FB1EC /* knightRider.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 944F623A286ED339000FB1EC /* knightRider.mp3 */; };
 		946602E22808741A003E8928 /* HornButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946602E12808741A003E8928 /* HornButton.swift */; };
 		948C755E2794C26300C455B7 /* SliderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C755D2794C26300C455B7 /* SliderViews.swift */; };
+		948CE5F22853659F0002944B /* villagerDamage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 948CE5F12853659F0002944B /* villagerDamage.mp3 */; };
 		94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */; };
 		94AC8D37279AE6DC004A927B /* TankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC8D36279AE6DC004A927B /* TankViewModel.swift */; };
 		94B8661E2794B63900E544FC /* SliderTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B8661D2794B63900E544FC /* SliderTutorial.swift */; };
 		94B9AD02281C2F39007DB37D /* ToggleLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9AD01281C2F39007DB37D /* ToggleLight.swift */; };
 		94B9AD0A281C39A9007DB37D /* light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94B9AD09281C39A9007DB37D /* light.mp3 */; };
+		94C8372E284DFCD000EE61A1 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C8372D284DFCD000EE61A1 /* ThemeView.swift */; };
+		94C83732284DFDEA00EE61A1 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C83731284DFDEA00EE61A1 /* Screenshot1.png */; };
+		94C83737284E13B800EE61A1 /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C83736284E13B800EE61A1 /* ThemeModel.swift */; };
 		94C93DEA2817129C00077342 /* disconnected.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94C93DE92817129B00077342 /* disconnected.mp3 */; };
 		94C93DEC2817C67300077342 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C93DEB2817C67300077342 /* LoadingView.swift */; };
 		94D04F052816988C0018D5AE /* SoundTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D04F042816988C0018D5AE /* SoundTest.swift */; };
@@ -58,14 +62,18 @@
 		94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLightButton.swift; sourceTree = "<group>"; };
 		94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWheel.swift; sourceTree = "<group>"; };
 		94367E11284C131D003DCEB6 /* SettingsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu.swift; sourceTree = "<group>"; };
-		94367E16284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png"; path = "../../../../Desktop/Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png"; sourceTree = "<group>"; };
+		944F623A286ED339000FB1EC /* knightRider.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knightRider.mp3; sourceTree = "<group>"; };
 		946602E12808741A003E8928 /* HornButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornButton.swift; sourceTree = "<group>"; };
 		948C755D2794C26300C455B7 /* SliderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViews.swift; sourceTree = "<group>"; };
+		948CE5F12853659F0002944B /* villagerDamage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = villagerDamage.mp3; sourceTree = "<group>"; };
 		94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-BlackItalic.otf"; path = "../../../../../../Library/Fonts/SF-Compact-Text-BlackItalic.otf"; sourceTree = "<group>"; };
 		94AC8D36279AE6DC004A927B /* TankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankViewModel.swift; sourceTree = "<group>"; };
 		94B8661D2794B63900E544FC /* SliderTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTutorial.swift; sourceTree = "<group>"; };
 		94B9AD01281C2F39007DB37D /* ToggleLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleLight.swift; sourceTree = "<group>"; };
 		94B9AD09281C39A9007DB37D /* light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light.mp3; path = "../../../../Library/Mobile Documents/com~apple~QuickTimePlayerX/Documents/light.mp3"; sourceTree = "<group>"; };
+		94C8372D284DFCD000EE61A1 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		94C83731284DFDEA00EE61A1 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot1.png; path = ../../../../Desktop/Screenshot1.png; sourceTree = "<group>"; };
+		94C83736284E13B800EE61A1 /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
 		94C93DE92817129B00077342 /* disconnected.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = disconnected.mp3; path = "../../../../Library/Mobile Documents/com~apple~QuickTimePlayerX/Documents/disconnected.mp3"; sourceTree = "<group>"; };
 		94C93DEB2817C67300077342 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		94D04F042816988C0018D5AE /* SoundTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTest.swift; sourceTree = "<group>"; };
@@ -122,7 +130,7 @@
 		94367E15284CC2D0003DCEB6 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
-				94367E16284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png */,
+				94C83731284DFDEA00EE61A1 /* Screenshot1.png */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 				94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */,
 				94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */,
 				94367E11284C131D003DCEB6 /* SettingsMenu.swift */,
+				94C8372D284DFCD000EE61A1 /* ThemeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				94AC8D36279AE6DC004A927B /* TankViewModel.swift */,
+				94C83736284E13B800EE61A1 /* ThemeModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -157,6 +167,8 @@
 				94C93DE92817129B00077342 /* disconnected.mp3 */,
 				94D5313728170F2F00750278 /* connected.mp3 */,
 				94B9AD09281C39A9007DB37D /* light.mp3 */,
+				948CE5F12853659F0002944B /* villagerDamage.mp3 */,
+				944F623A286ED339000FB1EC /* knightRider.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -328,11 +340,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C83732284DFDEA00EE61A1 /* Screenshot1.png in Resources */,
 				94ED9882278AEBC5008B1DBE /* Preview Assets.xcassets in Resources */,
 				94C93DEA2817129C00077342 /* disconnected.mp3 in Resources */,
 				94D5313828170F3000750278 /* connected.mp3 in Resources */,
-				94367E17284CC2E2003DCEB6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2022-06-05 at 12.53.50.png in Resources */,
 				94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */,
+				944F623B286ED339000FB1EC /* knightRider.mp3 in Resources */,
+				948CE5F22853659F0002944B /* villagerDamage.mp3 in Resources */,
 				94B9AD0A281C39A9007DB37D /* light.mp3 in Resources */,
 				94ED987F278AEBC5008B1DBE /* Assets.xcassets in Resources */,
 			);
@@ -368,11 +382,13 @@
 				94367E0E284BFC2B003DCEB6 /* NewLightButton.swift in Sources */,
 				94C93DEC2817C67300077342 /* LoadingView.swift in Sources */,
 				94ED987B278AEBC4008B1DBE /* TankApp.swift in Sources */,
+				94C8372E284DFCD000EE61A1 /* ThemeView.swift in Sources */,
 				94B8661E2794B63900E544FC /* SliderTutorial.swift in Sources */,
 				94367E10284C0E08003DCEB6 /* SettingsWheel.swift in Sources */,
 				94D04F052816988C0018D5AE /* SoundTest.swift in Sources */,
 				9435A82727A4918400C98321 /* ButtonView.swift in Sources */,
 				94AC8D37279AE6DC004A927B /* TankViewModel.swift in Sources */,
+				94C83737284E13B800EE61A1 /* ThemeModel.swift in Sources */,
 				946602E22808741A003E8928 /* HornButton.swift in Sources */,
 				948C755E2794C26300C455B7 /* SliderViews.swift in Sources */,
 			);

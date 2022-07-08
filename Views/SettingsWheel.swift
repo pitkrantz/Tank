@@ -9,11 +9,14 @@ import SwiftUI
 
 struct SettingsWheel: View {
     
+    @ObservedObject var settingsButtonState = SettingsButtonPressed()
     @State var pressed: Bool = false
     
     var body: some View {
         Button(action:{
-                pressed.toggle()
+            pressed.toggle()
+            settingsButtonState.buttonPressed.toggle()
+
         }, label: {
             ZStack{
                 Circle()

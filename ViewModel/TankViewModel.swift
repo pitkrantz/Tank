@@ -19,7 +19,7 @@ class TankViewModel : NSObject, ObservableObject, Identifiable{
 
     @Published var lightStatus: Bool = false
     // MARK: - Calculations
-    private var values:[UInt8] = [0x7F, 0x7F, 0x00, 0x00]  // motor values left [0] and right [1] and horn [2] and light [3]
+    private var values:[UInt8] = [0x7F, 0x7F, 0x00, 0x00]  // motor values left [0] and right [1] and horn [2] and knightRider [3]
     
     
     func getValueL(_ value: Int){

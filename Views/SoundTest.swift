@@ -18,6 +18,8 @@ class SoundManager{
         case connected
         case disconnected
         case light
+        case villagerDamage
+        case knightRider
     }
     
     func playSound(sound: SoundOption){
