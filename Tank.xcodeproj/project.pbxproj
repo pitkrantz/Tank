@@ -13,7 +13,7 @@
 		94367E10284C0E08003DCEB6 /* SettingsWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */; };
 		94367E12284C131D003DCEB6 /* SettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E11284C131D003DCEB6 /* SettingsMenu.swift */; };
 		944F623B286ED339000FB1EC /* knightRider.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 944F623A286ED339000FB1EC /* knightRider.mp3 */; };
-		946602E22808741A003E8928 /* HornButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946602E12808741A003E8928 /* HornButton.swift */; };
+		946602E22808741A003E8928 /* TurboButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946602E12808741A003E8928 /* TurboButton.swift */; };
 		948C755E2794C26300C455B7 /* SliderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C755D2794C26300C455B7 /* SliderViews.swift */; };
 		948CE5F22853659F0002944B /* villagerDamage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 948CE5F12853659F0002944B /* villagerDamage.mp3 */; };
 		94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */; };
@@ -63,7 +63,7 @@
 		94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWheel.swift; sourceTree = "<group>"; };
 		94367E11284C131D003DCEB6 /* SettingsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu.swift; sourceTree = "<group>"; };
 		944F623A286ED339000FB1EC /* knightRider.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knightRider.mp3; sourceTree = "<group>"; };
-		946602E12808741A003E8928 /* HornButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornButton.swift; sourceTree = "<group>"; };
+		946602E12808741A003E8928 /* TurboButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboButton.swift; sourceTree = "<group>"; };
 		948C755D2794C26300C455B7 /* SliderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViews.swift; sourceTree = "<group>"; };
 		948CE5F12853659F0002944B /* villagerDamage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = villagerDamage.mp3; sourceTree = "<group>"; };
 		94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-BlackItalic.otf"; path = "../../../../../../Library/Fonts/SF-Compact-Text-BlackItalic.otf"; sourceTree = "<group>"; };
@@ -135,17 +135,24 @@
 			path = Themes;
 			sourceTree = "<group>";
 		};
+		94A6EE8E288594980092D001 /* ButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				9435A82627A4918400C98321 /* ButtonView.swift */,
+				94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */,
+				94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */,
+				946602E12808741A003E8928 /* TurboButton.swift */,
+			);
+			path = ButtonViews;
+			sourceTree = "<group>";
+		};
 		94B7DA3A27A0503700527299 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				948C755D2794C26300C455B7 /* SliderViews.swift */,
 				94B8661D2794B63900E544FC /* SliderTutorial.swift */,
 				94D04F042816988C0018D5AE /* SoundTest.swift */,
-				9435A82627A4918400C98321 /* ButtonView.swift */,
-				946602E12808741A003E8928 /* HornButton.swift */,
 				94E435E8281A86B900904DDC /* LightButton.swift */,
-				94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */,
-				94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */,
 				94367E11284C131D003DCEB6 /* SettingsMenu.swift */,
 				94C8372D284DFCD000EE61A1 /* ThemeView.swift */,
 			);
@@ -155,8 +162,8 @@
 		94B7DA3B27A0507600527299 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				94AC8D36279AE6DC004A927B /* TankViewModel.swift */,
 				94C83736284E13B800EE61A1 /* ThemeModel.swift */,
+				94AC8D36279AE6DC004A927B /* TankViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +186,7 @@
 				94367E15284CC2D0003DCEB6 /* Themes */,
 				94D04F032816986A0018D5AE /* Sounds */,
 				94B7DA3B27A0507600527299 /* ViewModel */,
+				94A6EE8E288594980092D001 /* ButtonViews */,
 				94B7DA3A27A0503700527299 /* Views */,
 				94ED9879278AEBC4008B1DBE /* Tank */,
 				9435A82527A4915B00C98321 /* Custom Styles */,
@@ -389,7 +397,7 @@
 				9435A82727A4918400C98321 /* ButtonView.swift in Sources */,
 				94AC8D37279AE6DC004A927B /* TankViewModel.swift in Sources */,
 				94C83737284E13B800EE61A1 /* ThemeModel.swift in Sources */,
-				946602E22808741A003E8928 /* HornButton.swift in Sources */,
+				946602E22808741A003E8928 /* TurboButton.swift in Sources */,
 				948C755E2794C26300C455B7 /* SliderViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

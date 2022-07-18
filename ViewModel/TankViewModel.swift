@@ -18,8 +18,9 @@ class TankViewModel : NSObject, ObservableObject, Identifiable{
     @Published var connected = false  // true when BLE connection is active
 
     @Published var lightStatus: Bool = false
+    @Published var knightRider: Bool = false
     // MARK: - Calculations
-    private var values:[UInt8] = [0x7F, 0x7F, 0x00, 0x00]  // motor values left [0] and right [1] and horn [2] and knightRider [3]
+    private var values:[UInt8] = [0x7F, 0x7F, 0x00, 0x00]  // motor values left [0] and right [1] and stealth [2] and knightRider [3]
     
     
     func getValueL(_ value: Int){
@@ -30,13 +31,20 @@ class TankViewModel : NSObject, ObservableObject, Identifiable{
         values[1] = UInt8(value)
     }
     
-    func hornInput(_ value: Int){
+    func lightInput(_ value: Int){
         values[2] = UInt8(value)
     }
     
-    func lightInput(_ value: Int){
-        values[3] = UInt8(value)
+    func kittInput(){
+        if knightRider {
+            values[3] = 10
+        }
+        else {
+            values[3] = 0
+        }
     }
+    
+    
     
     //func leftvalue(_ value: Int) {
     //    motorvalues[0] = UInt8(value)

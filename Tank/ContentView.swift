@@ -26,7 +26,7 @@ struct ContentView: View {
                  Spacer()
                 HStack{
                     NewLightButton(viewModel: viewModel)
-                    HornButton(viewModel: viewModel)
+                    TurboButton(viewModel: viewModel)
 
                 }
                 

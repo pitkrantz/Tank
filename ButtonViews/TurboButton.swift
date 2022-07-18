@@ -7,23 +7,22 @@
 
 import SwiftUI
 
-struct HornButton: View {
+struct TurboButton: View {
     @ObservedObject var viewModel: TankViewModel
     
     var body: some View {
         HStack{
             Button(action: {
-                viewModel.hornInput(10)
-                viewModel.send()
-                viewModel.hornInput(0)
-                usleep(300 * 1000)
+                viewModel.knightRider.toggle()
+                viewModel.kittInput()
                 viewModel.send()
             }, label: {
-                Text("Horn!")
-                    .font(.system(size: 30, weight: .black, design: .default))
-                    .foregroundColor(.white)
+                Text("Turbo\nBoost")
+                    .font(.system(size: 25, weight: .regular, design: .monospaced))
+                    .foregroundColor(.black)
                     .frame(width: 120, height: 70)
-                    .background(.gray)
+                    .background(.red)
+                    .opacity(viewModel.knightRider ? 1 : 0.5)
                     
             })
             .padding()
@@ -35,6 +34,6 @@ struct HornButton: View {
 
 struct HornButton_Previews: PreviewProvider {
     static var previews: some View {
-        HornButton(viewModel: TankViewModel())
+        TurboButton(viewModel: TankViewModel())
     }
 }
