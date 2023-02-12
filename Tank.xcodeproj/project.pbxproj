@@ -16,6 +16,7 @@
 		946602E22808741A003E8928 /* TurboButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946602E12808741A003E8928 /* TurboButton.swift */; };
 		948C755E2794C26300C455B7 /* SliderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C755D2794C26300C455B7 /* SliderViews.swift */; };
 		948CE5F22853659F0002944B /* villagerDamage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 948CE5F12853659F0002944B /* villagerDamage.mp3 */; };
+		94A6EE9028859B900092D001 /* StealthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6EE8F28859B900092D001 /* StealthButton.swift */; };
 		94A963242824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */; };
 		94AC8D37279AE6DC004A927B /* TankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC8D36279AE6DC004A927B /* TankViewModel.swift */; };
 		94B8661E2794B63900E544FC /* SliderTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B8661D2794B63900E544FC /* SliderTutorial.swift */; };
@@ -66,6 +67,7 @@
 		946602E12808741A003E8928 /* TurboButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboButton.swift; sourceTree = "<group>"; };
 		948C755D2794C26300C455B7 /* SliderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViews.swift; sourceTree = "<group>"; };
 		948CE5F12853659F0002944B /* villagerDamage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = villagerDamage.mp3; sourceTree = "<group>"; };
+		94A6EE8F28859B900092D001 /* StealthButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StealthButton.swift; sourceTree = "<group>"; };
 		94A963232824F02800C934A8 /* SF-Compact-Text-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-BlackItalic.otf"; path = "../../../../../../Library/Fonts/SF-Compact-Text-BlackItalic.otf"; sourceTree = "<group>"; };
 		94AC8D36279AE6DC004A927B /* TankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankViewModel.swift; sourceTree = "<group>"; };
 		94B8661D2794B63900E544FC /* SliderTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTutorial.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				9435A82627A4918400C98321 /* ButtonView.swift */,
 				94367E0F284C0E08003DCEB6 /* SettingsWheel.swift */,
 				94367E0D284BFC2B003DCEB6 /* NewLightButton.swift */,
+				94A6EE8F28859B900092D001 /* StealthButton.swift */,
 				946602E12808741A003E8928 /* TurboButton.swift */,
 			);
 			path = ButtonViews;
@@ -397,6 +400,7 @@
 				9435A82727A4918400C98321 /* ButtonView.swift in Sources */,
 				94AC8D37279AE6DC004A927B /* TankViewModel.swift in Sources */,
 				94C83737284E13B800EE61A1 /* ThemeModel.swift in Sources */,
+				94A6EE9028859B900092D001 /* StealthButton.swift in Sources */,
 				946602E22808741A003E8928 /* TurboButton.swift in Sources */,
 				948C755E2794C26300C455B7 /* SliderViews.swift in Sources */,
 			);
